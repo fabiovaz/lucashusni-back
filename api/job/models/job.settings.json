@@ -12,16 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Description": {
+    "description": {
       "type": "text"
     },
-    "Slug": {
+    "slug": {
       "type": "string"
     },
-    "Cover": {
+    "cover": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -33,7 +33,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "Gallery": {
+    "gallery": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
