@@ -6,7 +6,7 @@ module.exports = () => ({
         providerOptions: {
             serviceAccount: credFile ,
             
-            bucket: "gs://lucas-husni.appspot.com/",
+            bucket: "lucas-husni.appspot.com",
             debugLogs: true
         },
     },
