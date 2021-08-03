@@ -24,6 +24,7 @@
     "strapi-plugin-i18n": "3.6.5",
     "strapi-plugin-upload": "3.6.5",
     "strapi-plugin-users-permissions": "3.6.5",
+    "strapi-provider-upload-to-firebase": "^1.0.1",
     "strapi-utils": "3.6.5"
   },
   "author": {
