@@ -1,4 +1,4 @@
-var credFile = require("firebase.json");
+var credFile = require("../config/firebase.json");
 
 module.exports = () => ({
     upload: {
@@ -6,7 +6,7 @@ module.exports = () => ({
         providerOptions: {
             serviceAccount: credFile ,
             
-            bucket: "lucas-husni.appspot.com/",
+            bucket: "gs://lucas-husni.appspot.com/",
             debugLogs: true
         },
     },
