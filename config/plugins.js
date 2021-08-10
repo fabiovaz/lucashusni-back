@@ -10,9 +10,8 @@ module.exports = () => ({
       debugLogs: true
     },
     breakpoints: {
-      large: 1920,
       medium: 750,
-      small: 500,
+      small: 300,
     }
   }
 });
