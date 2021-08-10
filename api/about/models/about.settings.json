@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "about"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "richtext"
+    },
+    "left_content": {
+      "type": "richtext"
+    },
+    "right_content": {
+      "type": "richtext"
+    },
+    "socialNetwork": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.social-network"
+    }
+  }
+}
